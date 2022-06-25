@@ -1,0 +1,70 @@
+/*Practica de flexvox*/
+.container {
+    width: 60%;
+    height: 70px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    align-items: stretch; /*para los elementos que no tienen height usa el alto del contenedor*/
+
+}
+
+section div {
+    border-radius: 1px solid black;
+    flex-basis: 100px;
+    padding-top: 8px;
+    font-size: larger;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+#item-uno {
+    flex-basis: 40px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 5px;
+    order: 1;
+    background-color: aquamarine;
+}
+
+#item-dos {
+    flex-basis: 200px;
+    text-align: center;
+    height: 40px;
+    margin-top: 5px;
+    order: 0;
+    background-color: aqua;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#item-tres {
+    text-align: center;
+    border-radius: 1px;
+    height: 40px;
+    margin-top: 5px;
+    order: 2;
+}
+
+#item-cuatro {
+    order: 3;
+    text-align: center;
+    border-radius: 1px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+#item-cinco {
+    text-align: center;
+    border-radius: 1px;
+    height: 40px;
+    margin-top: 5px;
+    order: 4;
+}
+
+#img {
+    width: 200px;
+    height: 600px;
+    box-shadow: 8px 9px 9px;
+    
+}
